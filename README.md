@@ -1,10 +1,12 @@
 ### Solution of the acoustic wave equation in 3D using finite difference method.
 
 Equation
-	d^2u/dx^2 + d^2u/dy^2 + d^2u/dz^2 = 1/c^2 dot d^2u/dt^2
-where 
-	u = u(x,y,z,t) - displacement vector (or acoustic pressure)
-	c - speed of sound
+
+	$$\frac{\partial^2u}{\partial x^2} + \frac{\partial^2u}{\partial y^2} + \frac{\partial^2u}{\partial z^2} = \frac{1}{c^2} \cdot \frac{\partial^2u}{\partial t^2}$$
+	
+where <br />
+	$u = u(x,y,z,t)$ - displacement vector (or acoustic pressure) <br />
+	$c$ - speed of sound <br />
 
 This program runs on GPU. So, the nvcc compiler is used.
 
