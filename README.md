@@ -1,8 +1,8 @@
 ### Solution of the acoustic wave equation in 3D using finite difference method.
 
-Equation
+Equation <br />
 
-	$$\frac{\partial^2u}{\partial x^2} + \frac{\partial^2u}{\partial y^2} + \frac{\partial^2u}{\partial z^2} = \frac{1}{c^2} \cdot \frac{\partial^2u}{\partial t^2}$$
+$\frac{\partial^2u}{\partial x^2} + \frac{\partial^2u}{\partial y^2} + \frac{\partial^2u}{\partial z^2} = \frac{1}{c^2} \cdot \frac{\partial^2u}{\partial t^2}$
 	
 where <br />
 	$u = u(x,y,z,t)$ - displacement vector (or acoustic pressure) <br />
