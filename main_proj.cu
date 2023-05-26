@@ -2,22 +2,6 @@
 #include <stdio.h>
 #include <math.h>
 
-/*
-Solution of the acoustic wave equation 
-	d^2u/dx^2 + d^2u/dy^2 + d^2u/dz^2 = 1/c^2 dot d^2u/dt^2
-in 3D using finite difference method.
-	where u = u(x,y,z,t) - displacement vector (or acoustic pressure)
-	and c - speed of sound
-
-This program outputs .vtk file that can be opened in ParaView
-
-compile it with
-$nvcc main_proj.cu -o main_proj
-then run with
-$./main_proj
-*/
-
-
 typedef double my_type;
 
 
